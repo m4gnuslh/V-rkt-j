@@ -1,0 +1,12 @@
+train: train/images
+val: train/images
+
+nc: 3
+names: ['Hammer', 'Screwdriver', 'Wrench']
+
+roboflow:
+  workspace: john-pork-ixpbr
+  project: tools-qcven
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/john-pork-ixpbr/tools-qcven/dataset/2
